@@ -1,0 +1,167 @@
+// See https://aka.ms/new-console-template for more information
+//Console.WriteLine("Hello, World!");
+
+// string = precisa de aspas duplas
+// int    = não precisa de aspas
+
+// Console.WriteLine("Digite seu nome: ");
+// string nomeUsuario = Console.ReadLine();
+
+// Console.WriteLine("Digite sua idade: ");
+// int idade = int.Parse(Console.ReadLine());
+
+// Console.WriteLine("Seja bem vindo "+nomeUsuario+ ", voce tem "+idade+ " anos");
+
+
+
+// ****************** exemplo 01 ***********************
+
+// Console.WriteLine("Digite a sua idade: ");
+// int idade = int.Parse(Console.ReadLine());
+
+// if(idade >= 18){
+//     Console.WriteLine("Voto obrigatório");
+// }
+// else
+//     if( idade == 16 || idade == 17){
+//         Console.WriteLine("Voto facultativo");
+//     }
+//     else{
+//         Console.WriteLine("Voce nao pode votar.");
+//     }
+
+
+// ********************** exemplo 02 ********************
+
+// bool possuiAutorizacao = false;
+// bool ehMaiorDeIdade = true;
+
+// if (ehMaiorDeIdade || possuiAutorizacao){
+//     Console.WriteLine("Entrada liberada");
+// }
+// else{
+//     Console.WriteLine("Entrada não permitida");
+// }
+
+//********************* exemplo 03 **********************
+
+// bool possuiPresencaMinima =true;
+// double media = 7.5;
+
+// if (possuiPresencaMinima && media >= 7){
+//     Console.WriteLine("Aprovado");
+// }
+// else{
+//     Console.WriteLine("Reprovado");
+// }
+
+//********************** exemplo 04 **********************
+
+// bool choveu = true;
+// bool estaTarde = true;
+
+// if( choveu && !estaTarde) { // ! -- negação
+//     Console.WriteLine("Vou pedalar.");
+// }
+// else{
+//     Console.WriteLine("Vou pedalar um outro dia.");
+// }
+
+// ******************** estrutura de repetição *******************
+
+// Console.WriteLine("Digite um número: ");
+// int numero = int.Parse(Console.ReadLine());
+
+// for(int cont = 0; cont <=10 ; cont++){
+//     Console.WriteLine(numero + " X "+ cont + " = "+numero * cont);
+// }
+
+// *************** estrutura de repetição -- exemplo 01 *****************
+
+// int numero =0;
+// int soma =0;
+
+// Console.WriteLine("Digite uma sequencia de numeros e aperte enter (0 para sair): ");
+// numero = int.Parse(Console.ReadLine());
+
+// while(numero != 0){
+//     soma = soma + numero;
+//     numero = int.Parse(Console.ReadLine());
+// }
+
+// Console.WriteLine("A soma dos numeros é : "+soma);
+
+
+// *************** estrutura de repetição -- exemplo 02 *****************
+
+// int numero =0;
+// int soma =0;
+
+// Console.WriteLine("Digite uma sequencia de numeros e aperte enter (0 para sair): ");
+
+// do{
+//     numero = int.Parse(Console.ReadLine());
+//     soma = soma + numero;
+// }while(numero !=0);
+
+// Console.WriteLine("A soma dos numeros é : "+soma);
+
+// *************** operadores aritmeticos *****************
+
+int numero1 =0;
+int numero2 =0;
+int resultado=0;
+string operador;
+
+Console.WriteLine("Digite o primeiro numero: ");
+numero1 = int.Parse(Console.ReadLine());
+
+Console.WriteLine("Digite o segundo numero: ");
+numero2 = int.Parse(Console.ReadLine());
+
+//@ -- faz a quebra de linhas
+Console.WriteLine(@"Digite a operação: 
+    (+) - adição
+    (-) - subtração
+    (*) - multiplicação
+    (/) - divisão");
+
+operador = Console.ReadLine();
+
+switch(operador){
+    case "+":
+        resultado = numero1 + numero2;
+        break;
+    case "-":
+        resultado = numero1 - numero2;
+        break;
+    case "*":
+        resultado = numero1 * numero2;
+        break;
+    case "/":
+        resultado = numero1 / numero2;
+        break;
+    default:
+        Console.WriteLine("Opção inválida.");
+        break;
+}
+
+Console.WriteLine(numero1+ " "+ operador+" "+ numero2 +" "+" = "+resultado);
+
+// *************** exemplo conversão *****************
+
+
+Console.WriteLine("Digite seu nome: ");
+string? nome = Console.ReadLine();
+
+Console.WriteLine("Digite sua idade: ");
+int idade= Convert.ToInt32(Console.ReadLine());
+
+Console.WriteLine("Digite seu peso: ");
+double peso= Convert.ToDouble(Console.ReadLine().Replace(".",",")); //replace = troca ponto por virgula
+
+Console.WriteLine("Apresentação:");
+Console.WriteLine("Seu nome é : " +nome);
+Console.WriteLine("Sua idade é : "+idade);
+Console.WriteLine("Seu peso é : "+peso);
+

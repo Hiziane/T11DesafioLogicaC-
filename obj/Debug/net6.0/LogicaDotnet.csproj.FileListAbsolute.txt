@@ -1,0 +1,15 @@
+C:\Projeto\LogicaDotnet\bin\Debug\net6.0\LogicaDotnet.exe
+C:\Projeto\LogicaDotnet\bin\Debug\net6.0\LogicaDotnet.deps.json
+C:\Projeto\LogicaDotnet\bin\Debug\net6.0\LogicaDotnet.runtimeconfig.json
+C:\Projeto\LogicaDotnet\bin\Debug\net6.0\LogicaDotnet.dll
+C:\Projeto\LogicaDotnet\bin\Debug\net6.0\LogicaDotnet.pdb
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.csproj.AssemblyReference.cache
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.AssemblyInfoInputs.cache
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.AssemblyInfo.cs
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.csproj.CoreCompileInputs.cache
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.dll
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\refint\LogicaDotnet.dll
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.pdb
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\LogicaDotnet.genruntimeconfig.cache
+C:\Projeto\LogicaDotnet\obj\Debug\net6.0\ref\LogicaDotnet.dll
